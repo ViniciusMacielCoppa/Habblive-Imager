@@ -82,10 +82,10 @@
         const {nick, rosto, tamanho, cabeca} = Obtervalores();
 
         if(cabeca == "cabecaSim"){
-            ImgAvatar.src = `https://habblive.in/imageeer.php?user=${nick}&action=wav&size=${tamanho}&head_direction=${DirecaoCabeca}&direction=${DirecaoCorpo}&gesture=${rosto}&headonly=1`
-            LinkAvatar.href = `https://habblive.in/imageeer.php?user=${nick}&action=wav&size=${tamanho}&head_direction=${DirecaoCabeca}&direction=${DirecaoCorpo}&gesture=${rosto}&headonly=1`
+            ImgAvatar.src = `https://habblive.in/imager.php?user=${nick}&action=wav&size=${tamanho}&head_direction=${DirecaoCabeca}&direction=${DirecaoCorpo}&gesture=${rosto}&headonly=1`
+            LinkAvatar.href = `https://habblive.in/imager.php?user=${nick}&action=wav&size=${tamanho}&head_direction=${DirecaoCabeca}&direction=${DirecaoCorpo}&gesture=${rosto}&headonly=1`
             return;
         }
-        ImgAvatar.src = `https://habblive.in/imageeer.php?user=${nick}&action=wav&size=${tamanho}&head_direction=${DirecaoCabeca}&direction=${DirecaoCorpo}&gesture=${rosto}`
-        LinkAvatar.href = `https://habblive.in/imageeer.php?user=${nick}&action=wav&size=${tamanho}&head_direction=${DirecaoCabeca}&direction=${DirecaoCorpo}&gesture=${rosto}`
+        ImgAvatar.src = `https://habblive.in/imager.php?user=${nick}&action=wav&size=${tamanho}&head_direction=${DirecaoCabeca}&direction=${DirecaoCorpo}&gesture=${rosto}`
+        LinkAvatar.href = `https://habblive.in/imager.php?user=${nick}&action=wav&size=${tamanho}&head_direction=${DirecaoCabeca}&direction=${DirecaoCorpo}&gesture=${rosto}`
     }
